@@ -1,0 +1,53 @@
+MainWindow #searchPane #translateLine, MainWindow #searchPane #wordList
+{
+	font-size: 20px; 
+    	padding-left: 2px;
+	background: black;
+	color: white;
+}
+MainWindow #favoritesPane #favoritesTree
+{
+	font-size: 20px;
+	background: black;
+	color: white;
+}
+MainWindow #translateLine, ScanPopup #translateLine, MainWindow #wordList, MainWindow #dictsPane #dictsList, MainWindow #historyPane #historyList
+{
+	font-size: 20px;
+	background: black;
+	color: white;
+}
+
+
+QWidget
+{
+background: black;
+color: white;
+font-size: 20px;
+}
+
+QTabBar:tab
+{
+background: gray;
+color: white;
+}
+
+QMenuBar
+{
+color: black;
+font-size: 16px;
+}
+
+QMenuBar::item
+{
+color: white;
+background: black;
+}
+
+QTabWidget::pane {
+color: black;
+border: 1px solid gray;
+background-color:green;
+}
+
+
