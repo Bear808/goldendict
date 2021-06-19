@@ -1,0 +1,249 @@
+body
+{
+  margin-top: 1px;
+  margin-right: 3px;
+  margin-left:  2px;
+  margin-bottom: 3px;
+  background: #000000 !important;
+  border-color: #000000 !important;
+  color: #F5F4ED !important;
+  font-family: 'Calibri' !important;
+  font-size: 15px;
+}
+
+tbody, td, th
+{
+  background: #17270F !important;
+  color: #F5F4ED !important;
+}
+
+a:link
+{
+  color: #A0DC7F !important;
+}
+
+ul
+{
+  color: #e0e0e0;
+}
+
+.gdarticle
+{
+  background: #000000;
+  color: #e0e0e0 !important;
+  margin-top: 0.1em;
+  margin-bottom: 0.4em;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+.gdactivearticle
+{
+  border: 1px solid #3399FF;
+}
+
+.gdarticleseparator + script + .gdactivearticle .gddictname
+{
+  border-top: 1px solid #3399FF;
+}
+
+.gdarticleseparator
+{
+  display: none;
+}
+
+.gddictname
+{
+  font-size: 14px;
+  font-weight: normal;
+  float: right;
+  border: 0px;
+  margin: -6px;
+  margin-bottom: 5px;
+  margin-left: 2px;
+  padding-right: 0.4em;
+
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.gdactivearticle .gddictname
+{
+  font-size: 14px;
+  font-weight: normal;
+  margin: -6px;
+  margin-bottom: 5px;
+  margin-left: 2px;
+
+  float: right;
+  border: 1px solid white;
+}
+
+.gddicticon
+{
+  display: inline;
+  vertical-align: text-bottom;
+  float: right;
+  padding-right: 0em;
+  padding-left: 0.3em;
+}
+
+font[color="#0000D0"]
+{
+    color: #b2d3f4 !important;
+}
+
+font[color="#004080"]
+{
+    color: #b2d3f4 !important;
+}
+
+font[color="#000099"]
+{
+    color: #b2d3f4 !important;
+}
+
+font[color="#008000"]
+{
+    color: #b2d3f4 !important;
+}
+
+font[color="#0000c0"]
+{
+    color: #d2f427 !important;
+}
+
+/**
+ * Old Dictionaries using DSL format
+ */
+.gdarticlebody > span:first-child .dsl_headwords,
+.gdarticlebody > h3:first-child
+{
+  margin-top: -3px;
+  display: inline-block;
+}
+
+.gdspellsuggestion
+{
+  /* Add some vertical space before the article */
+  margin-top: 1.5em;
+}
+
+.dsl_article, .dsl_definition, .dsl_ex, .dsl_opt, .dsl_lang, .dsl_m0, .dsl_m1, .dsl_m2, .dsl_m3, .dsl_m4, .dsl_u, .dsl_b, .dsl_i
+{
+  color: #e0e0e0 !important;
+}
+
+.dsl_p {
+  color: #FF7400 !important;
+}
+
+.dsl_b font {
+  color: #FFD300 !important;
+}
+
+.dsl_m2 font {
+  color: #71FF35 !important;
+}
+
+.dsl_i font {
+  color: #e0e0e0 !important;
+}
+
+.dsl_article .dsl_definition {
+  color: #FFEA13 !important;
+}
+
+.dsl_article .dsl_definition font[color="darkcyan"]
+{
+  color: #FFEA13 !important;
+}
+
+.dsl_article .dsl_definition font[color="teal"]
+{
+  color: #FFEA13 !important;
+}
+
+.dsl_article .dsl_definition font[color="darkslategray"]
+{
+  color: #E7003E !important;
+}
+
+.dsl_article .dsl_definition font[color="darkslateblue"]
+{
+  color: #E7003E !important;
+}
+
+.dsl_article .dsl_definition font[color="darkmagenta"]
+{
+  color: #E7003E !important;
+}
+
+.dsl_article .dsl_definition font[color="sienna"]
+{
+  color: #E7003E !important;
+}
+
+.dsl_article .dsl_definition font[color="rosybrown"]
+{
+  color: #E7003E !important;
+}
+
+.dsl_article .dsl_definition font[color="dimgray"]
+{
+  color: #e0e0e0 !important;
+}
+
+.dsl_article .dsl_definition font[color="green"]
+{
+  color: #E7003E !important;
+}
+
+.dsl_article .dsl_definition font[color="darkgreen"]
+{
+  color: #E7003E !important;
+}
+
+::selection
+{
+  background: #A0DC7F;
+	color: white;
+}
+
+code::selection
+{
+	background: white;
+}
+
+.dsl_s_wav img, .lsa_play img, .forvo_play img[alt="Play"]
+{
+  /**
+  display: none;
+  **/
+}
+
+.dsl_s_wav a, .lsa_play td:nth-of-type(1) a, .forvo_play td:nth-of-type(1) a
+{
+  color: white;
+  width: 18px;
+  height: 14px;
+  /**
+  display: inline-block;
+  background: url('file:///control_play_lingvo.png') no-repeat center;
+  vertical-align: text-bottom;
+  -webkit-user-select: none;
+  user-select: none;
+  **/
+}
+
+div
+{
+	  background: #000000!important;
+    color: #F5F4ED!important
+}
+
+H2, H3, font
+{
+    color: #F5F4ED!important
+}
